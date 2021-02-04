@@ -14,6 +14,7 @@ const sendWelcomeEmail = (email, name) => {
 
 }
 
+
 const sendCancelationEmail = (email, name) => {
     sgMail.send({
         to: email,

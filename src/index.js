@@ -10,7 +10,6 @@ const app = express()
 const port = process.env.PORT
 
 
-
 /******************registering middleware********************/
 // app.use((req, res, next) => {
 //     if(req.method === 'GET'){
